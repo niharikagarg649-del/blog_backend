@@ -13,7 +13,7 @@ connectWithDb();
 
 app.listen(PORT, ()=>
 {
-    console.log(`PORT has started at ${POrt}`);
+    console.log(`PORT has started at ${PORT}`);
 })
 
 app.get("/", (req,res) =>{
