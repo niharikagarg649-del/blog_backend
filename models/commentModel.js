@@ -1,12 +1,12 @@
 const mongoose=require("mongoose");
 
-const commmentSchema=new mongoose.Schema({
+const commentSchema=new mongoose.Schema({
     post:{
         type: mongoose.Schema.Types.ObjectId,
         ref:"Post",
     },
     user:{
-        type: String,
+        type: String,   
         required:true,
     },
     body:{
